@@ -1,0 +1,197 @@
+// bower:scss
+// endbower
+
+html,body{
+    height:100%;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.spacer{
+    height:200px;
+}
+
+
+.intro{
+    font-size:20px;
+    text-align:center;
+    min-height:100%;
+    padding:20%;
+}
+
+.item{
+    width:300px;
+    height:400px;
+    background:#772255;
+    //opacity:.8;
+    margin:0 auto 10px;
+    span{
+        color:white;
+        text-align: center;
+        display:block;
+    }
+}
+
+.ingredient{
+    width:200px;
+    height:100px;
+    background:#338822;
+    position:fixed;
+    top:40px;
+    left:-300px;
+    margin-left:-100px;
+    z-index:-1;
+    span{
+        color:white;
+        text-align: center;
+        display:block;
+    }
+}
+
+#in-malt{
+    left:50%;
+    &.mald{
+        background:orange;
+        width:200px;
+        height:40px;
+        margin-left:-100px;
+    }
+    &.rinnig{
+        background:orange;
+        width:20px;
+        height:40px;
+        margin-left:-10px;
+    }
+
+}
+
+#in-humle1{
+    background:green;
+
+    &.kokad{
+        width:20px;
+    }
+}
+
+#it-eld{
+    width:400px;
+    height:100px;
+    background:orange;
+    margin:0 auto 0 -200px;
+    bottom:-100px;
+    position:fixed;
+    left:50%;
+    z-index:99;
+
+}
+
+#it-kvarn{
+    #arm{
+        height:200px;
+        width:50px;
+        margin:0 auto;
+        background:yellow;
+    }
+}
+
+#it-kittel{
+    background:silver;
+    .kran{
+        width:30px;
+        background:green;
+        height:40px;
+        position:absolute;
+        bottom:-20px;
+        left:50%;
+        margin-left:-15px;
+    }
+}
+
+.container{
+    border-radius:0 0 20px 20px;
+}
+
+#it-maeskkarl{
+
+    background:#333;
+    height:300px;
+    position:relative;
+
+    .kran{
+        width:30px;
+        background:green;
+        height:40px;
+        position:absolute;
+        bottom:-20px;
+        left:50%;
+        margin-left:-15px;
+    }
+}
+
+#it-jaeskarl{
+
+    background:#886211;
+    position:relative;
+
+    .lock{
+        width:300px;
+        border-bottom:3px solid white;
+        background:#886211;
+        height:40px;
+        position:absolute;
+        top:-40px;
+        left:50%;
+        //margin-left:150px;
+    }
+}
+
+
+#it-flaskor{
+    width:100%;
+    //opacity:.2;
+    text-align:center;
+    .flaska{
+        width:90px;
+        height:180px;
+        background:brown;
+        display:inline-block;
+        position:relative;
+
+        .beer{
+            position:absolute;
+            bottom:2px;
+            left:2px;
+            right:2px;
+            height:0px;
+            background:yellow;
+            opacity:.7;
+        }
+    }
+
+}
+
+
+
+#it-lakvatten{
+
+    background:green;
+    opacity:.4;
+    height:50px;
+
+}
+
