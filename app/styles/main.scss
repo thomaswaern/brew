@@ -10,7 +10,8 @@ html,body{
  }
 
 body {
-    background: #212324;
+    background: url(../images/bakgrund.jpg);
+    background-attachment: fixed;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
@@ -47,14 +48,14 @@ body {
 }
 
 .ingredient{
-    width:200px;
+    width:180px;
     height:100px;
     background:#338822;
     position:fixed;
-    top:40px;
+    top:100px;
     left:-300px;
-    margin-left:-100px;
-    z-index:1;
+    margin-left:-90px;
+    z-index:-1;
     span{
         color:white;
         text-align: center;
@@ -63,12 +64,13 @@ body {
 }
 
 #maltsack{
-    background:transparent url(../images/maltsack.svg) no-repeat;
+    background:transparent url(../images/vete_closed.png) no-repeat;
     background-size:cover;
 }
 
 #in-malt{
     left:50%;
+    opacity:.3;
     &.mald{
         background:orange;
         width:200px;

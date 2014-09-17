@@ -18,7 +18,6 @@ $(document).ready(function($) {
 				onReverseComplete: function () {$('#in-malt').removeClass('mald');}
 			})
 		);
-			
 
 	var laktappTween = new TimelineMax()
 		.add(
@@ -67,7 +66,7 @@ $(document).ready(function($) {
 		.setPin('#it-kvarn')
 		.addTo(controller);
 
-	var malt = new ScrollScene({triggerElement: '#trigger2', offset:-400, duration: 700})
+	var malt = new ScrollScene({triggerElement: '#trigger1', offset:-400, duration: 700})
 		.setTween(maltTween)
 		.addTo(controller);
 
